@@ -1,4 +1,4 @@
-# Flow 批量 2K 下载
+google-flow-batch-2k-downloader# Google Flow 批量 2K 下载
 
 > 在 Google Flow 原页面选图，右键一键排队下载 2K 图片。
 
