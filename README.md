@@ -1,4 +1,4 @@
-google-flow-batch-2k-downloader# Flow 批量 2K 下载
+# Google Flow 生成图片批量2K高清重塑下载器
 
 > 在 Google Flow 原页面选图，右键一键排队下载 2K 图片。
 
