@@ -1,0 +1,13 @@
+{
+  "name": "flow-batch-2k-downloader",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local tests for the Flow Batch 2K browser extension",
+  "scripts": {
+    "test": "node test.cjs",
+    "check": "node --check adapter.js && node --check selection.js && node --check content.js && node --check background.js"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.1"
+  }
+}

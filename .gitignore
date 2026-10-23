@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+*.zip
+*.crx
+.DS_Store
+Thumbs.db
+使用说明.txt
+验证记录.txt

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Flow 批量 2K 下载",
+  "version": "0.2.0",
+  "description": "在 Flow 原页面多选图片，右键批量执行原生 2K 高清重塑下载。",
+  "permissions": ["downloads", "storage"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["https://flow.google.com/*"],
+    "js": ["adapter.js", "selection.js", "content.js"],
+    "run_at": "document_idle"
+  }]
+}
